@@ -11,7 +11,6 @@ module ActiveExample
 
     def talk
       run_callbacks(:talk) do
-        puts message
         message
       end
     end
